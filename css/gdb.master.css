@@ -1732,6 +1732,174 @@ body {
     }
 }
 /*扬尘监控结束*/
+/*能源管理开始*/
+.energy-problem-txt {
+    position: absolute;
+    top: 16%;
+    width: 100%;
+    font-size: 2.4rem;
+    line-height: 2;
+    color: #fff;
+}
+.energy-problem-txt h1 {
+    margin-bottom: 2.2%;
+    font-size: 6.0rem;
+    font-weight: normal;
+    text-align: center;
+}
+.energy-problem-txt p {
+    width: 52%;
+    margin: 0 auto;
+    text-indent: 2em;
+}
+.energy-showmore{
+    left: 50%;
+    width: 14rem;
+    height: 7rem;
+    margin-left: -7rem;
+    padding-top: 2rem;
+    background: url("../images/energy_showmor_bt.png") repeat;
+    border-radius: 10px;
+    color: #fff;
+    overflow: hidden;
+}
+.energy-showmore .feature-showmore-icon {
+    margin-top: 1rem;
+}
+.enerty-problem-hidebox{
+    padding-top: 83px;
+}
+.enerty-introduce {
+    width: 1220px;
+    margin: 0 auto;
+}
+.enerty-introduce-img{
+    margin-bottom: 25px;
+}
+.enerty-introduce-imgbox{
+    width: 576px;
+    height: 332px;
+    padding: 8px;
+    background-color: #fff;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.4);
+}
+
+.monitor-solution-top, .service-solution-top {
+    position: relative;
+}
+.monitor-solution-top img, .service-solution-top img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.monitor-solution-top > img.monitor-solution-phone {
+    position: absolute;
+    bottom: -12rem;
+    left: 50%;
+    width: 30.4%;
+    margin-left: -15.2%;
+}
+.monitor-solution-top h2 {
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    text-align: center;
+    font-size: 6rem;
+    line-height: 2.2rem;
+    font-weight: lighter;
+    color: #010101;
+}
+.monitor-solution-top h2 span {
+    color: #0071bc;
+}
+.monitor-solution-icon {
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    width: 37%;
+    margin-left: -18%;
+    font-size: 2.4rem;
+    color: #fff;
+}
+.monitor-solution-icon li {
+    height: 5rem;
+    line-height: 5rem;
+    padding-left: 10rem;
+    margin-bottom: 2.5rem;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+.monitor-solution-icon li.monitor-solution-iconone {
+    background-image: url(../images/icon/icon_monitor_solution1.png);
+    background-size: auto 100%;
+}
+.monitor-solution-icon li.monitor-solution-icontwo {
+    background-image: url(../images/icon/icon_monitor_solution2.png);
+    background-size: auto 100%;
+}
+.monitor-solution-icon li.monitor-solution-iconthree {
+    background-image: url(../images/icon/icon_monitor_solution3.png);
+    background-size: auto 100%;
+}
+.monitor-solution-icon li.monitor-solution-iconfour {
+    background-image: url(../images/icon/icon_monitor_solution4.png);
+    background-size: auto 100%;
+}
+.monitor-solution-content {
+    width: 875px;
+    margin: 0 auto;
+    padding-top: 9.0rem;
+}
+.monitor-solution-content ul .monitor-solution-item {
+    padding: 11.5rem 0;
+    background: url(../images/icon/icon_line.png) repeat-x left bottom;
+}
+.monitor-solution-content ul .monitor-solution-item:last-child {
+    background: none;
+}
+.monitor-solution-item .monitor-solution-item-imgbox {
+    width: 326px;
+    height: 189px;
+    border: 3px solid #fff;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.4);
+}
+.monitor-solution-item .monitor-solution-item-txtbox {
+    width: 490px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4c4c4c;
+}
+.monitor-solution-item .monitor-solution-item-txtbox h4 {
+    padding-left: 28px;
+    margin-bottom: 40px;
+    font-weight: lighter;
+    background: url(../images/icon/icon_point.png) no-repeat left center;
+}
+.monitor-solution-item .monitor-solution-item-txtbox p {
+    text-indent: 2em;
+}
+.monitor-solution-tpimg{
+    width: 63%;
+    min-width: 875px;
+    margin: 0 auto 198px auto;
+
+}
+.monitor-solution-tpimg img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 1500px) {
+    .monitor-solution-icon {
+        width: 43%;
+        margin-left: -21%;
+    }
+    .monitor-solution-icon li {
+        height: 4rem;
+        line-height: 4rem;
+    }
+}
+/*能源管理结束*/
 .applications-title {
     position: relative;
 }
