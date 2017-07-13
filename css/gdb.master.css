@@ -1428,7 +1428,7 @@ body {
     line-height: 1.87;
     color: #4c4c4c;
 }
-.service-solution-txtbox .service-solution-article p{
+.service-solution-txtbox .service-solution-article p {
     letter-spacing: 3px;
 }
 .service-solution-txtbox .service-solution-article span {
@@ -1616,10 +1616,10 @@ body {
 .monitor-problem-item article p, .service-problem-item article p {
     text-indent: 2em;
 }
-.monitor-solution-top, .service-solution-top {
+.monitor-solution-top, .service-solution-top, .enerty-solution-top {
     position: relative;
 }
-.monitor-solution-top img, .service-solution-top img {
+.monitor-solution-top img, .service-solution-top img, .enerty-solution-top img {
     display: block;
     width: 100%;
     height: auto;
@@ -1710,13 +1710,12 @@ body {
 .monitor-solution-item .monitor-solution-item-txtbox p {
     text-indent: 2em;
 }
-.monitor-solution-tpimg{
+.monitor-solution-tpimg {
     width: 63%;
     min-width: 875px;
     margin: 0 auto 198px auto;
-
 }
-.monitor-solution-tpimg img{
+.monitor-solution-tpimg img {
     display: block;
     width: 100%;
     height: auto;
@@ -1752,7 +1751,7 @@ body {
     margin: 0 auto;
     text-indent: 2em;
 }
-.energy-showmore{
+.energy-showmore {
     left: 50%;
     width: 14rem;
     height: 7rem;
@@ -1766,40 +1765,60 @@ body {
 .energy-showmore .feature-showmore-icon {
     margin-top: 1rem;
 }
-.enerty-problem-hidebox{
+.enerty-problem-hidebox {
     padding-top: 83px;
 }
 .enerty-introduce {
     width: 1220px;
     margin: 0 auto;
 }
-.enerty-introduce-img{
-    margin-bottom: 25px;
+.enerty-introduce-img {
+    margin-bottom: 30px;
 }
-.enerty-introduce-imgbox{
+.enerty-introduce-imgbox {
     width: 576px;
     height: 332px;
-    padding: 8px;
+    border: 8px solid #fff;
     background-color: #fff;
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.4);
 }
-
-.monitor-solution-top, .service-solution-top {
-    position: relative;
-}
-.monitor-solution-top img, .service-solution-top img {
+.enerty-introduce-imgbox img {
     display: block;
-    width: 100%;
-    height: auto;
+    width: 576px;
+    height: 332px;
 }
-.monitor-solution-top > img.monitor-solution-phone {
-    position: absolute;
-    bottom: -12rem;
-    left: 50%;
-    width: 30.4%;
-    margin-left: -15.2%;
+.enerty-introduce-imgbox2 {
+    width: 768px;
+    height: 447px;
+    margin: 0 auto;
+    margin-top: 117px;
+    border: 8px solid #e9e9e9;
+    background-color: #fff;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.4);
 }
-.monitor-solution-top h2 {
+.enerty-introduce-imgbox2 img {
+    display: block;
+    width: 768px;
+    height: 447px;
+}
+.enerty-introduce-info {
+    width: 768px;
+    margin: 0 auto;
+    color: #4c4c4c;
+}
+.enerty-introduce-info h2 {
+    padding-left: 40px;
+    margin-bottom: 35px;
+    font-size: 30px;
+    line-height: 30px;
+    background: url("../images/icon/icon_point.png") no-repeat left center;
+    font-weight: normal;
+}
+.enerty-introduce-info p {
+    font-size: 24px;
+    line-height: 40px;
+}
+.enerty-solution-top h2 {
     position: absolute;
     top: 15%;
     width: 100%;
@@ -1809,41 +1828,63 @@ body {
     font-weight: lighter;
     color: #010101;
 }
-.monitor-solution-top h2 span {
+.enerty-solution-top h2 span {
     color: #0071bc;
 }
-.monitor-solution-icon {
+.enerty-solution-info {
     position: absolute;
     top: 28%;
     left: 50%;
-    width: 37%;
-    margin-left: -18%;
-    font-size: 2.4rem;
-    color: #fff;
+    width: 69%;
+    min-width: 848px;
+    height: 63%;
+    min-height: 395px;
+    margin-left: -35%;
+    background: url("../images/enerty_solution_infobg.png") no-repeat;
+    background-size: 100%;
 }
-.monitor-solution-icon li {
-    height: 5rem;
-    line-height: 5rem;
-    padding-left: 10rem;
-    margin-bottom: 2.5rem;
-    background-position: left center;
-    background-repeat: no-repeat;
+.enerty-solution-infobox {
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
-.monitor-solution-icon li.monitor-solution-iconone {
-    background-image: url(../images/icon/icon_monitor_solution1.png);
-    background-size: auto 100%;
+.enerty-solution-vs {
+    display: block;
+    position: absolute;
+    left: 42.5%;
+    top: 26%;
+    width: 15%;
 }
-.monitor-solution-icon li.monitor-solution-icontwo {
-    background-image: url(../images/icon/icon_monitor_solution2.png);
-    background-size: auto 100%;
+.enerty-solution-vs img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
-.monitor-solution-icon li.monitor-solution-iconthree {
-    background-image: url(../images/icon/icon_monitor_solution3.png);
-    background-size: auto 100%;
+.enerty-solution-infolf {
+    position: relative;
+    width: 27%;
+    padding-top: 4%;
+    padding-left: 8%;
+    color: #000;
 }
-.monitor-solution-icon li.monitor-solution-iconfour {
-    background-image: url(../images/icon/icon_monitor_solution4.png);
-    background-size: auto 100%;
+.enerty-solution-infolf h3 {
+    margin-bottom: 15%;
+    font-size: 36px;
+    font-weight: normal;
+}
+.enerty-solution-infolf span {
+    display: block;
+    position: absolute;
+    font-size: 18px;
+}
+.enerty-solution-infolf span {
+    left: 8%;
+}
+.enerty-solution-infolf span.enerty-solution-txt1{
+    top: 44.5%;
+}
+.enerty-solution-infolf span.enerty-solution-txt2{
+    top: 72.5%;
 }
 .monitor-solution-content {
     width: 875px;
@@ -1878,13 +1919,12 @@ body {
 .monitor-solution-item .monitor-solution-item-txtbox p {
     text-indent: 2em;
 }
-.monitor-solution-tpimg{
+.monitor-solution-tpimg {
     width: 63%;
     min-width: 875px;
     margin: 0 auto 198px auto;
-
 }
-.monitor-solution-tpimg img{
+.monitor-solution-tpimg img {
     display: block;
     width: 100%;
     height: auto;
