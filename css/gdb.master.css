@@ -1616,10 +1616,10 @@ body {
 .monitor-problem-item article p, .service-problem-item article p {
     text-indent: 2em;
 }
-.monitor-solution-top, .service-solution-top, .enerty-solution-top {
+.monitor-solution-top, .service-solution-top, .energy-solution-top {
     position: relative;
 }
-.monitor-solution-top img, .service-solution-top img, .enerty-solution-top img {
+.monitor-solution-top img, .service-solution-top img, .energy-solution-top img {
     display: block;
     width: 100%;
     height: auto;
@@ -1765,29 +1765,29 @@ body {
 .energy-showmore .feature-showmore-icon {
     margin-top: 1rem;
 }
-.enerty-problem-hidebox {
+.energy-problem-hidebox {
     padding-top: 83px;
 }
-.enerty-introduce {
+.energy-introduce {
     width: 1220px;
     margin: 0 auto;
 }
-.enerty-introduce-img {
+.energy-introduce-img {
     margin-bottom: 30px;
 }
-.enerty-introduce-imgbox {
+.energy-introduce-imgbox {
     width: 576px;
     height: 332px;
     border: 8px solid #fff;
     background-color: #fff;
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.4);
 }
-.enerty-introduce-imgbox img {
+.energy-introduce-imgbox img {
     display: block;
     width: 576px;
     height: 332px;
 }
-.enerty-introduce-imgbox2 {
+.energy-introduce-imgbox2 {
     width: 768px;
     height: 447px;
     margin: 0 auto;
@@ -1796,17 +1796,17 @@ body {
     background-color: #fff;
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.4);
 }
-.enerty-introduce-imgbox2 img {
+.energy-introduce-imgbox2 img {
     display: block;
     width: 768px;
     height: 447px;
 }
-.enerty-introduce-info {
+.energy-introduce-info {
     width: 768px;
     margin: 0 auto;
     color: #4c4c4c;
 }
-.enerty-introduce-info h2 {
+.energy-introduce-info h2 {
     padding-left: 40px;
     margin-bottom: 35px;
     font-size: 30px;
@@ -1814,11 +1814,11 @@ body {
     background: url("../images/icon/icon_point.png") no-repeat left center;
     font-weight: normal;
 }
-.enerty-introduce-info p {
+.energy-introduce-info p {
     font-size: 24px;
     line-height: 40px;
 }
-.enerty-solution-top h2 {
+.energy-solution-top h2 {
     position: absolute;
     top: 15%;
     width: 100%;
@@ -1828,10 +1828,10 @@ body {
     font-weight: lighter;
     color: #010101;
 }
-.enerty-solution-top h2 span {
+.energy-solution-top h2 span {
     color: #0071bc;
 }
-.enerty-solution-info {
+.energy-solution-info {
     position: absolute;
     top: 28%;
     left: 50%;
@@ -1840,104 +1840,81 @@ body {
     height: 63%;
     min-height: 395px;
     margin-left: -35%;
-    background: url("../images/enerty_solution_infobg.png") no-repeat;
+    background: url("../images/energy_solution_infobg.png") no-repeat;
     background-size: 100%;
 }
-.enerty-solution-infobox {
+.energy-solution-infobox {
     position: relative;
     width: 100%;
     height: 100%;
 }
-.enerty-solution-vs {
+.energy-solution-vs {
     display: block;
     position: absolute;
     left: 42.5%;
     top: 26%;
     width: 15%;
 }
-.enerty-solution-vs img {
+.energy-solution-vs img {
     display: block;
     width: 100%;
     height: auto;
 }
-.enerty-solution-infolf {
+.energy-solution-infolf, .energy-solution-infolr {
     position: relative;
     width: 27%;
     padding-top: 4%;
-    padding-left: 8%;
     color: #000;
 }
-.enerty-solution-infolf h3 {
+.energy-solution-infolf {
+    padding-left: 12%;
+}
+.energy-solution-infolr {
+    padding-right: 12%;
+}
+.energy-solution-infolf h3, .energy-solution-infolr h3 {
     margin-bottom: 15%;
-    font-size: 36px;
+    font-size: 3.6rem;
     font-weight: normal;
 }
-.enerty-solution-infolf span {
+.energy-solution-infolf span, .energy-solution-infolr span {
     display: block;
     position: absolute;
-    font-size: 18px;
+    font-size: 1.8rem;
 }
-.enerty-solution-infolf span {
-    left: 8%;
+.energy-solution-infolf span {
+    left: 12%;
 }
-.enerty-solution-infolf span.enerty-solution-txt1{
-    top: 44.5%;
+.energy-solution-infolr span {
+    right: 12%;
 }
-.enerty-solution-infolf span.enerty-solution-txt2{
-    top: 72.5%;
+.energy-solution-infolf span.energy-solution-txt1, .energy-solution-infolr span.energy-solution-txt1 {
+    top: 44%;
 }
-.monitor-solution-content {
-    width: 875px;
-    margin: 0 auto;
-    padding-top: 9.0rem;
+.energy-solution-infolf span.energy-solution-txt2, .energy-solution-infolr span.energy-solution-txt2 {
+    top: 72%;
 }
-.monitor-solution-content ul .monitor-solution-item {
-    padding: 11.5rem 0;
-    background: url(../images/icon/icon_line.png) repeat-x left bottom;
-}
-.monitor-solution-content ul .monitor-solution-item:last-child {
-    background: none;
-}
-.monitor-solution-item .monitor-solution-item-imgbox {
-    width: 326px;
-    height: 189px;
-    border: 3px solid #fff;
-    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.4);
-}
-.monitor-solution-item .monitor-solution-item-txtbox {
-    width: 490px;
-    font-size: 16px;
-    line-height: 30px;
-    color: #4c4c4c;
-}
-.monitor-solution-item .monitor-solution-item-txtbox h4 {
-    padding-left: 28px;
-    margin-bottom: 40px;
-    font-weight: lighter;
-    background: url(../images/icon/icon_point.png) no-repeat left center;
-}
-.monitor-solution-item .monitor-solution-item-txtbox p {
-    text-indent: 2em;
-}
-.monitor-solution-tpimg {
-    width: 63%;
-    min-width: 875px;
-    margin: 0 auto 198px auto;
-}
-.monitor-solution-tpimg img {
-    display: block;
+.energy-solution-infobox > p {
+    position: absolute;
+    bottom: 5%;
     width: 100%;
-    height: auto;
+    text-align: center;
+    font-size: 3.6rem;
+    color: #0069ac;
 }
-@media screen and (max-width: 1500px) {
-    .monitor-solution-icon {
-        width: 43%;
-        margin-left: -21%;
-    }
-    .monitor-solution-icon li {
-        height: 4rem;
-        line-height: 4rem;
-    }
+.energy-lighting{
+    position: relative;
+    width: 100%;
+    padding-top: 220px;
+    background: #f2f2f2 url("../images/energy_lighting_bg.png") no-repeat 85% 20%;
+}
+.energy-lighting-icon{
+    display: block;
+    position: absolute;
+    top: -40%;
+    left: 14%;
+    width: 14%;
+    height: auto;
 }
 /*能源管理结束*/
 .applications-title {
